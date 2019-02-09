@@ -1,0 +1,38 @@
+div.kartka {
+    width: 210mm;
+    height: 297mm;
+
+    background-color: #ddd;
+    box-shadow: 2mm 2mm 8px #666;
+    border: 1px solid #444;
+    margin: 0.5cm;
+    padding: 1.5cm;
+    
+}
+div.blokTekstu {
+    width: 70%;
+    float: left;
+    
+}
+div.poboczne {
+    width: 25%;
+    float: right;
+    
+}
+ul.kompetencje {
+    margin-left : 0px;
+    padding-left : 0px;
+}
+ul.social {
+    margin-left : 0px;
+    padding-left : 0px;
+}
+table.doswiadczenie td {
+    padding: 3mm;
+    border-collapse: collapse;
+	border: 1px solid #000000;
+}
+div.foot {
+    clear: both;
+    bottom: 1.5cm;
+}
