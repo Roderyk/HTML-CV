@@ -17,7 +17,8 @@
         </header>
 
         <div class="blokTekstu">
-            <p>Jestem Office Managerem z ponad 4-letnim doświadczeniem w zarządzaniu pracami biura międzynarodowej
+            <p class="omnie">Jestem Office Managerem z ponad 4-letnim doświadczeniem w zarządzaniu pracami biura
+                międzynarodowej
                 agencji
                 rekrutacyjnej. Umiem negocjować z dostawcami artykułów biurowych i zarządzać kalendarzami
                 pracowniczymi.
@@ -26,10 +27,15 @@
             <h4>Doświadczenie</h4>
             <table class="doswiadczenie">
                 <tr>
-                    <td>2012.10 - dziś</td>
-                    <td>Agencja Headhunterska - Office Manager, Zakres obowiązków:
+                    <td class="lata">2012.10 - dziś</td>
+                    <td class="stanowisko">Agencja Headhunterska - Office Manager, Zakres obowiązków:
                         <ul>
                             <li>koordynowanie prac biurowych</li>
+                            <ul>
+                                <li>nadzór nad pracownikami</li>
+                                <li>nadzór nad terminarzem</li>
+                                <li>planowanie długookresowe</li>
+                            </ul>
                             <li>zarządzam kalendarzami spotkań</li>
                             <li>nadzoruję obieg dokumentacji</li>
                             <li>negocjuję warunki współpracy z 4 dostawcami zewnętrznymi</li>
@@ -37,8 +43,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>2007.10 - 2012.10</td>
-                    <td>Firma ABC - Koordynator Administracji, zakres obowiązków:
+                    <td class="lata">2007.10 - 2012.10</td>
+                    <td class="stanowisko">Firma ABC - Koordynator Administracji, zakres obowiązków:
                         <ul>
                             <li>zarządzałem pracami 5 specjalistów administracji</li>
                             <li>odpowiadałem za wyznaczanie celów i kontrolę ich realizacji</li>
@@ -48,8 +54,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>2001.06 - 2003.03</td>
-                    <td>Agencja Headhunterska - Specjalista ds. Administracji, zakres obowiązków:
+                    <td class="lata">2001.06 - 2003.03</td>
+                    <td class="stanowisko">Agencja Headhunterska - Specjalista ds. Administracji, zakres obowiązków:
                         <ul>
                             <li>nadzorowałem budżet administracyjny</li>
                             <li>współpracowałem ściśle z zarządem przy budżetowaniu</li>
@@ -58,7 +64,7 @@
                 </tr>
             </table>
             <h4>Edukacja</h4>
-            <table class="edukacja">
+            <table class="dodatkowe">
                 <tr>
                     <td>2006.10</td>
                     <td>Szkoła Główna Handlowa w Warszawie, Zarządzanie</td>
@@ -72,41 +78,80 @@
                     <td>Administracja, studia magisterskie</td>
                 </tr>
             </table>
+            <h4>Wybrane szkolenia: </h4>
+            <table class="dodatkowe">
+                <tr>
+                    <td>2017.06</td>
+                    <td>Zarządzanie projektami</td>
+                </tr>
+                <tr>
+                    <td>2017.01</td>
+                    <td>Metody zwinne zarządzania</td>
+                </tr>
+            </table>
+            <h4>Zainteresowania: </h4>
+            <span class="dodatkowe">muzyka klasyczna, wycieczki górskie, rower</span>
             <h4>Formularz kontaktowy: </h4>
             <div class="formularz">
+                <label for="imie">Podaj swoje imię:</label>
                 <input type="text" id="imie" class="poleformularza" placeholder="Wpisz imie">
+                <label for="nazwisko">Podaj swoje nazwisko:</label>
                 <input type="text" id="nazwisko" class="poleformularza" placeholder="Wpisz nazwisko">
+                <label for="telefon">Podaj telefon:</label>
                 <input type="text" id="telefon" class="poleformularza" placeholder="Wpisz telefon">
+                <label for="email">Podaj telefon:</label>
                 <input type="email" id="email" class="poleformularza" placeholder="Wpisz adres email">
-                <textarea cols="60" rows="4" class="poleformularza"></textarea>
+                <label for="listaSelect">Wybierz temat kontaktu:</label>
+                <select id="listaSelect">
+                    <option>Poszukuję pracownika</option>
+                    <option>Poszukuję zleceniobiorcy</option>
+                    <option>Poszukuję doradztwa</option>
+                </select>
+                <textarea cols="60" rows="4" class="poleformularza" placeholder="Opisz temat"></textarea>
+                <span><input type="checkbox" id="zgoda">Wyrażam zgodę na wysłanie newslettera.</span>
                 <input type="submit" id="submit" class="poleformularza" value="Wyślij">
             </div>
         </div>
 
         <div class="poboczne">
             <div class="foto">
-                <img src="./foto.jpg">
+                <img src="./foto.jpg" id="foto">
             </div>
             <h5 class="AsideH5">Kluczowe kompetencje</h5>
-            <ul class="kompetencje">
+            <ol class="kompetencje">
                 <li>Zarządzanie pracami biura </li>
                 <li>Negocjacje z dostawcami </li>
                 <li>Zarządzanie zespołem </li>
                 <li>Prowadzenie szkoleń </li>
                 <li>Nadzorowanie budżetów </li>
-            </ul>
+            </ol>
             <h5 class="AsideH5">Social media</h5>
             <ul class="social">
                 <li>linkedin.com/jankowalski </li>
                 <li>facebook.com/jankowalski </li>
             </ul>
+            <h5 class="AsideH5">Dane osobowe</h5>
+            <ul class="daneOsobowe">
+                <li class="pierwsza">Data urodzenia: </li>
+                <li class="druga">21 czerwca 1984</li>
+                <li class="pierwsza">Adres: </li>
+                <li class="druga">ul. Przykładowa 21/2 </li>
+                <li class="druga">00-234 Warszawa </li>
+                <li class="pierwsza">Telefon: </li>
+                <li class="druga">234-765-123</li>
+                <li class="pierwsza">E-mail: </li>
+                <li class="druga">przykladowy@mail.com</li>
+                <li class="pierwsza">WWW: </li>
+                <li class="druga">mojastrona.com</li>
+            </ul>
+
         </div>
         <div class="foot">
             <p>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w mojej ofercie pracy dla Potrzeb Procesu
                 rekrutacji
                 zgodnie z ustawą z dnia 29 sierpnia 1997 r. o ochronie dany. osobowych (tj. Dz. U. z 2014 r. poz.
                 1182).</p>
-            <p>&#169</p>
+            <p>&#169 Jan Kowalski | Białystok 2019</p>
         </div>
     </div>
 </body>
